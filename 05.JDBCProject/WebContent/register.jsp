@@ -7,13 +7,24 @@
 </head>
 
 <body>
-<h1>회원가입</h1>
+<h1>Register</h1>
 <hr>
 
 <form action="registerProc.jsp">
-	<input type="text" name="id">
-	<input type="password" name="pwd">
-	<input type="submit" value="가입">
+	id : <input type="text" name="id"> <br>
+	
+	password : <input type="password" name="pwd"> <br>
+	
+	name : <input type="text" name="name"> <br>
+	
+	age : <input type="text" name="age"> <br>
+	
+	gender : <input type="radio" name="gender" value = "m"> man
+	<input type="radio" name="gender" value = "w"> woman <br>
+	
+	address : <input type="text" name="address"> <br>
+	
+	<input type="submit" value="register">
 </form>
 </body>
 </html>
